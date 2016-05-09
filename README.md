@@ -1,13 +1,15 @@
 # websocket-chat
 
-A WebSocket chat server. Experiment by Nicholas Costa.
+Sample experiment showing how WebSockets can be used to create a simple chat room.
 
-Ayy what is security I put stuff in da window with innerHTML
+## How to use
 
-So anyway to actually run the thing download it and run in your terminal
-  node test.js
-And then open index.html
-By thw way if you want to chat with your friends find the part in client.js that says
-  "ws://127.0.0.1:42069"
-And have them change the ip there to the ip of the computer test.js is running on.
-Then just type stuff in one box and it comes out into their computer hopefully
+### To host server
+1. Clone or download code to your computer. Extract if necessary.
+2. `cd` into folder.
+3. Run `node test.js`.
+
+### To view chatroom
+1. In line 1 of `client.js`, change `127.0.0.1` to the IP of the computer the server is being hosted on.
+2. Open `index.html`.
+3. Do stuff.

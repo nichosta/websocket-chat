@@ -4,7 +4,7 @@ var websocket = require('websocket');
 var server = http.createServer(function(req, res) {
 	// Nothing to see here
 });
-server.listen(42069);
+server.listen(40065);
 
 var clients = [];
 

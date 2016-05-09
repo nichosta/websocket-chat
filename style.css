@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font: 16px monospace;
+    background: #333;
+}
+#messages,
+#input {
+    padding: 5px;
+    width: 100vw;
+    color: #ddd;
+}
+#messages {
+    position: absolute;
+    bottom: 5vh;
+    overflow: scroll;
+}
+#input {
+    position: fixed;
+    bottom: 0;
+    height: 5vh;
+    border: 0;
+    background: #555;
+}
+#input:focus {
+    outline: 0;
+    border: solid 2px #0080c8;
+}
