@@ -21,10 +21,3 @@ connection.onmessage = function(message) {
 document.body.onscroll = function() {
     document.body.scrollTop = document.body.height;
 };
-
-// Debug
-setInterval(function() {
-	var bubble = document.createElement('p');
-	bubble.appendChild(document.createTextNode('this is a testy test'));
-	page.messages.appendChild(bubble);
-}, 100);
