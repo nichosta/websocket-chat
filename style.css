@@ -5,15 +5,16 @@
 }
 body {
     font: 16px monospace;
-    background: #333;
+    background: white;
 }
 #messages,
 #input {
     padding: 5px;
     width: 100vw;
-    color: #ddd;
+    color: black;
 }
 #messages {
+    height: 95vh;
     position: absolute;
     bottom: 5vh;
     overflow: scroll;
@@ -23,9 +24,10 @@ body {
     bottom: 0;
     height: 5vh;
     border: 0;
-    background: #555;
+    border-top: solid 1px black;
+    font: inherit;
 }
 #input:focus {
     outline: 0;
-    border: solid 2px #0080c8;
+    border-top-width: 3px;
 }
